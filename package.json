@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/kachumahara/react-portfolio#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4",
+    "node": "^13.12.0"
   }
 }
