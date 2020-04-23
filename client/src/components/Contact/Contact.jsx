@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Form, FormGroup, Input, Label, Button } from "reactstrap";
 import axios from "axios";
 
-class Contact extends Compnent {
+class Contact extends Component {
   constructor() {
     super();
     this.state = {
@@ -63,6 +63,15 @@ class Contact extends Compnent {
               type="email"
               name="email"
               placeholder="email"
+              onChange={this.handleChange} 
+          />
+      </FormGroup>
+      <FormGroup>
+          <Label for="phone"></Label>
+          <Input
+              type="phone"
+              name="phone"
+              placeholder="602-332-7179"
               onChange={this.handleChange} 
           />
       </FormGroup>
