@@ -18,13 +18,83 @@ import './Portfolio.css';
 
 const data = [
   {
-    // id: ,
-    // title: ""
-    // bootcamp: true,
-    // independent: false,
-    // favorite: true,
-    // image: 
-    // url:
-    // overview:
-  }
+    id: 2,
+    title: "Work Day Scheduler",
+    bootcamp: true,
+    independent: false,
+    favorite: true,
+    image: portfolioPicTen,
+    url: 'https://kachumahara.github.io/dayScheduler/',
+    overview: "HTML, Bootrap, jQuery, JavaScript"
+  },
+  {
+    id: 4,
+    title: "Workout Tracker",
+    bootcamp: true,
+    independent: false,
+    favorite: true,
+    image: portfolioPicNine,
+    url: 'https://shrouded-reef-36317.herokuapp.com/',
+    overview: "MongoDB, Mongoose, Express, Node.js"
+  },
+  {
+    id: 6,
+    title: "Weather Dashboard",
+    bootcamp: true,
+    independent: false,
+    favorite: true,
+    image: portfolioPicFive,
+    url: 'https://kachumahara.github.io/WeatherDashboard/',
+    overview: "API, AJAX, JavaScript, jQuery"
+  },
+  {
+    id: 7,
+    title: "Password Generator",
+    bootcamp: true,
+    independent: false,
+    favorite: true,
+    image: portfolioPicSix,
+    url: 'https://kachumahara.github.io/myFirstPasswordGenerator/',
+    overview: "HTML, CSS, JavaScript",
+  },
+  {
+    id: 16,
+    title: "Employee Directory",
+    bootcamp: true,
+    independent: false,
+    favorite: true,
+    image: portfolioPicTwelve,
+    url: 'https://kachumahara.github.io/employee-directory/',
+    overview: "React, React Hooks, axios, API",
+  },
+  {
+    id: 12,
+    title: "Code Quiz Challenge",
+    bootcamp: true,
+    independent: false,
+    favorite: true,
+    image: portfolioPicThree,
+    url: 'https://kachumahara.github.io/codeQuiz/',
+    overview: "HTML, CSS, JavaScript",
+  },
+  {
+    id: 3,
+    title: "Note Taker",
+    bootcamp: true,
+    independent: false,
+    favorite: true,
+    image: portfolioPicTwo,
+    url: 'https://powerful-garden-52265.herokuapp.com/',
+    overview: "Express, Node, local storage, jQuery",
+  },
+  {
+    id: 9,
+    title: "Note Taker",
+    bootcamp: true,
+    independent: false,
+    favorite: true,
+    image: portfolioPicSeven,
+    url: 'https://evening-caverns-32521.herokuapp.com/',
+    overview: "Handlebars, Mysql, Node.js, Express, JavaScript",
+  },
 ]
