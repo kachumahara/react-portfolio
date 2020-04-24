@@ -44,25 +44,25 @@ const Navbar = () => {
                     &nbsp;|&nbsp;
                     <li className="nav-item">
                         <Link
-                            to="/contact" 
+                            to="/portfolio" 
                             className={
-                                window.location.pathname === "/contact"
+                                window.location.pathname === "/portfolio"
                                     ? "nav-link active"
                                     : "nav-link" 
                             }>
-                            Contact
+                            Portfolio
                         </Link>
                     </li>
                     &nbsp;|&nbsp;
                     <li className="nav-item">
                         <Link
-                            to="/portfolio" 
+                            to="/contact" 
                             className={
-                                window.location.pathname === "/portfolio"
+                                window.location.pathname === "/contact"
                                 ? "nav-link active"
                                 : "nav-link"
                             }>
-                            Portfolio
+                            Contact
                         </Link>
                     </li>
                 </ul>
