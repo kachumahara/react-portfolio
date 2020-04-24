@@ -23,7 +23,7 @@ const Home = () => {
             <br />
             <p className="card-text font-weight-bold" id="bio">
               My name is Kenneth Achumahara, a Software Developer. I earned my
-              first degree in Accounting and most recently obtained a
+              first degree in Accounting and recently obtained a
               Certificate in Full Stack Web Development from the University of
               Arizona. With a disciplined mindset, I love taking difficult tasks
               and rendering valued solutions that are exceptional with unique
