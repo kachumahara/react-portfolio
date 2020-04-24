@@ -30,6 +30,7 @@ Body {
 }
 #image {
   float: right;
+  height: 150;
 }
 
 .banner-text {

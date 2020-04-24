@@ -52,7 +52,7 @@ class Contact extends Component {
           <Input
               type="text"
               name="name"
-              placeholder="name"
+              placeholder="Kenneth Achumahara"
               onChange={this.handleChange} 
               
           />
@@ -62,7 +62,7 @@ class Contact extends Component {
           <Input
               type="email"
               name="email"
-              placeholder="email"
+              placeholder="kachumahara@gmail.com"
               onChange={this.handleChange} 
           />
       </FormGroup>

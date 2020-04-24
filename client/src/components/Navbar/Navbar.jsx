@@ -1,7 +1,7 @@
 import React from "react";
 import './Navbar.css';
 // import Container from '../Container/Container.jsx'
-import AminoLogo from '../images/misc/3.jpg';
+import AminoLogo from '../images/misc/1.jpg';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
             <Link
                 to="/" 
                 className="navbar-brand">
-                <img src={AminoLogo} alt="react" className="img-fluid" height="99.66px" width="225px"/>
+                <img src={AminoLogo} alt="react" className="img-fluid" height="100px" width="200px"/>
             </Link>
             
             {/* <button

@@ -4,7 +4,7 @@ import React from 'react';
 // with the /static reference
 import ImageToggleOnMouseOver from './ImageToggleOnMouseOver.jsx';
 import colorImg from '../../images/pix3.jpg';
-import bwImage from '../../images/bw/pix1.jpg';
+import bwImage from '../../images/new.jpg';
 
 
 const ImageChangeOnMouseOver = () => {

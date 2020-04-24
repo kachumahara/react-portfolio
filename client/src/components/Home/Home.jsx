@@ -9,7 +9,7 @@ const Home = () => {
     <Container fluid>
       <Row className="row">
         <div
-          className="col-md-3 justify-content center shadow-lg p-3 mb-5 rounded"
+          className="col-md-4 justify-content center shadow-lg p-3 mb-5 rounded"
           id="imdiv"
         >
           <ImageChangeOnMouseOver
@@ -17,7 +17,7 @@ const Home = () => {
             id="image"
           />
         </div>
-        <div className="col-md-5 justify-content center shadow-lg p-3 mb-5 pt-5 rounded">
+        <div className="col-md-6 justify-content center shadow-lg p-3 mb-5 pt-5 rounded">
           <div className="card-body">
             <h2 className="texty">About</h2>
             <br />
