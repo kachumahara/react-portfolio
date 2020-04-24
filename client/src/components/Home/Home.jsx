@@ -32,7 +32,7 @@ const Home = () => {
               meaningful applications.
             </p>
           </div>
-          <iframe
+          <iframe title="Full Stack Badge"
             frameborder="0"
             scrolling="no"
             src="https://arizona.credly.com/embed.html#/?member_badge_id=23348148"
