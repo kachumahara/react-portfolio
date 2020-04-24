@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div className="col-md-6 justify-content center shadow-lg p-3 mb-5 pt-5 rounded">
           <div className="card-body">
-            <h2 className="texty">About</h2>
+            <h2 className="texty">About Me</h2>
             <br />
             <p className="card-text font-weight-bold" id="bio">
               My name is Kenneth Achumahara, a Software Developer. I earned my
