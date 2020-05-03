@@ -114,7 +114,7 @@ const data = [
     independent: true,
     favorite: true,
     image: portfolioPicThirteen,
-    url: "https://drive.google.com/open?id=1H3quTVhedjjzwWZGyw76XnvPVvVQhRZi",
+    url: "https://drive.google.com/file/d/1ddYEMnBjAX15FMDnL2O0koWDh-7epSXj/view?usp=sharing",
     overview: "Resume",
   },
 ];
