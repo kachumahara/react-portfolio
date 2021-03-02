@@ -12,11 +12,35 @@ import portfolioPicTen from "../images/2.jpg";
 import portfolioPicEleven from "../images/8.gif";
 import portfolioPicTwelve from "../images/16.jpg";
 import portfolioPicThirteen from "../images/15.jpg";
+import portfolioPicSeveenteen from "../images/17.jpg";
+import portfolioPicEighteen from "../images/18.jpg";
 import PortfolioItem from "./PortfolioItem.jsx";
 import Container from "../Container/Container.jsx";
 import "./Portfolio.css";
 
 const data = [
+  {
+    id: 18,
+    title: "Social Media App",
+    bootcamp: true,
+    independent: false,
+    favorite: true,
+    image: portfolioPicEighteen,
+    url: "https://guarded-brook-94874.herokuapp.com/",
+    overview: "React, Redux, Font Awesome, Nodejs, Express, MongoDB, Postman",
+  },
+
+  {
+    id: 17,
+    title: "Amazon Web Page",
+    bootcamp: true,
+    independent: false,
+    favorite: true,
+    image: portfolioPicSeveenteen,
+    url: "https://e-commerce-2fdd5.web.app/",
+    overview: "React, Redux, Material UI, Firebase/Firestore, Stripe",
+  },
+
   {
     id: 2,
     title: "Work Day Scheduler",
@@ -114,7 +138,8 @@ const data = [
     independent: true,
     favorite: true,
     image: portfolioPicThirteen,
-    url: "https://drive.google.com/file/d/1ddYEMnBjAX15FMDnL2O0koWDh-7epSXj/view?usp=sharing",
+    url:
+      "https://drive.google.com/file/d/11dCXJYyds7ETHUjPpLem2nEv93LQpF8R/view?usp=sharing",
     overview: "Resume",
   },
 ];
@@ -133,12 +158,12 @@ const Portfolio = () => {
                 title={project.title}
                 overview={project.overview}
               />
-            )
+            );
           })}
         </div>
       </Container>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default Portfolio;

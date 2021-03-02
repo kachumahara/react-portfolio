@@ -22,23 +22,16 @@ const Home = () => {
             <h2 className="texty">About Me</h2>
             <br />
             <p className="card-text font-weight-bold" id="bio">
-              My name is Kenneth Achumahara, a Software Developer. I earned my
-              first degree in Accounting and recently obtained a
-              Certificate in Full Stack Web Development from the University of
-              Arizona. With a disciplined mindset, I love taking difficult tasks
-              and rendering valued solutions that are exceptional with unique
-              qualities. Enthusiastic about approaching programming challenges
-              from different angles and collaborating with others to create
-              meaningful applications.
+              Project-focused Software Engineer, who demonstrate resilience;
+              motivated in learning new and exciting technologies. Knowledgeable
+              of backend and frontend development requirements. Adding value in
+              any area of involvement with the sole aim of achieving the overall
+              goal of my team. With significant experience conducting user
+              research and collaborating with developers to create intuitive web
+              applications. Meticulous mindset from over 10 years of experience
+              in IT Project Management.
             </p>
           </div>
-          <iframe title="Full Stack Badge"
-            frameborder="0"
-            scrolling="no"
-            src="https://arizona.credly.com/embed.html#/?member_badge_id=23348148"
-            width="180"
-            height="230"
-          ></iframe>
         </div>
       </Row>
       <Row>
